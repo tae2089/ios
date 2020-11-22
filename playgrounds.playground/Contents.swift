@@ -1,5 +1,7 @@
 import UIKit
 
+//    - let : 선언시 처음입력된 데이터만 저장하게 됩니다.
+//    - var : 선언시 처음입력된 데이터 이후 추가로 입력가능하며 마지막에 입력된 데이터가 최종 데이터가 됩니다.
 //var str = "Hello, playground"
 //
 //let coordinate = (4,6)
