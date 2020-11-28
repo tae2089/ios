@@ -168,4 +168,5 @@ func someSimpleFunction(choSimpleClosure: () -> Void){
 someSimpleFunction(choSimpleClosure: {
     print("test")
 })
+//finish
 
