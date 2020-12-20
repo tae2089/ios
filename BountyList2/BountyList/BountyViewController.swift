@@ -10,7 +10,10 @@ import UIKit
 //UITableViewDataSource -> 테이블뷰 셀 몇개, 테이블 뷰 어떻게 보여줄거야?
 //UITableViewDelegate -> 테이블 뷰 클릭하면 어떻게 반응해?
 
-class BountyViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+class BountyViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate,
+                            UICollectionViewDelegateFlowLayout{
+
+    
     
     //MVVM
     
@@ -45,25 +48,41 @@ class BountyViewController: UIViewController,UITableViewDataSource,UITableViewDe
         super.viewDidLoad()
     }
 
-    //UITabelViewDataSource
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    // 몇개를 보여줄까요?
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return ViewModel.numOfBountyInfoList
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-      guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell",for: indexPath) as? ListCell else {
-            return UITableViewCell()
+    // 셀은 어떻게 표현할까요?
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+   
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Gridcell", for: indexPath) as? GridCell else {
+            return UICollectionViewCell()
         }
-        let bountyInfo = ViewModel.bounttInfo(at: indexPath.row)
-        cell.update(info: bountyInfo)
-        return cell
+        
+          let bountyInfo = ViewModel.bounttInfo(at: indexPath.item)
+          cell.update(info: bountyInfo)
+          return cell
     }
     
-    //UItableViewDelegate
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showdetail", sender: indexPath.row)
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showdetail", sender: indexPath.item)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+    //너비와 높이가 필요
+        let itemSpanning : CGFloat = 10
+        let textAreaHeight : CGFloat = 65
+        
+        let width: CGFloat = (collectionView.bounds.width - itemSpanning)/2
+        let height: CGFloat = width * 10/7 + textAreaHeight
+        
+        return CGSize(width: width, height: height)
+    }
+    
 }
+
 
 
 

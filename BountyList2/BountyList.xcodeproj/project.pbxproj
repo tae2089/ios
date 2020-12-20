@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED0D57C8258F0A8B008C0446 /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D57C7258F0A8B008C0446 /* BountyInfo.swift */; };
 		ED0D57CD258F0AEC008C0446 /* BountyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D57CC258F0AEC008C0446 /* BountyViewModel.swift */; };
-		ED0D57D2258F0B13008C0446 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D57D1258F0B13008C0446 /* ListCell.swift */; };
+		ED0D57D2258F0B13008C0446 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D57D1258F0B13008C0446 /* GridCell.swift */; };
 		EDE44B7A258E1306000CAB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE44B79258E1306000CAB88 /* AppDelegate.swift */; };
 		EDE44B7C258E1306000CAB88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE44B7B258E1306000CAB88 /* SceneDelegate.swift */; };
 		EDE44B81258E1306000CAB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE44B7F258E1306000CAB88 /* Main.storyboard */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		ED0D57C7258F0A8B008C0446 /* BountyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
 		ED0D57CC258F0AEC008C0446 /* BountyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewModel.swift; sourceTree = "<group>"; };
-		ED0D57D1258F0B13008C0446 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		ED0D57D1258F0B13008C0446 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 		EDE44B76258E1306000CAB88 /* BountyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE44B79258E1306000CAB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE44B7B258E1306000CAB88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			children = (
 				EDE44B79258E1306000CAB88 /* AppDelegate.swift */,
 				EDE44BB7258E14E2000CAB88 /* BountyViewController.swift */,
-				ED0D57D1258F0B13008C0446 /* ListCell.swift */,
+				ED0D57D1258F0B13008C0446 /* GridCell.swift */,
 				ED0D57CC258F0AEC008C0446 /* BountyViewModel.swift */,
 				EDE44BBC258E2413000CAB88 /* DetailViewController.swift */,
 				ED0D57C7258F0A8B008C0446 /* BountyInfo.swift */,
@@ -273,7 +273,7 @@
 				ED0D57C8258F0A8B008C0446 /* BountyInfo.swift in Sources */,
 				EDE44B7A258E1306000CAB88 /* AppDelegate.swift in Sources */,
 				EDE44BB8258E14E2000CAB88 /* BountyViewController.swift in Sources */,
-				ED0D57D2258F0B13008C0446 /* ListCell.swift in Sources */,
+				ED0D57D2258F0B13008C0446 /* GridCell.swift in Sources */,
 				ED0D57CD258F0AEC008C0446 /* BountyViewModel.swift in Sources */,
 				EDE44B7C258E1306000CAB88 /* SceneDelegate.swift in Sources */,
 				EDE44BBD258E2413000CAB88 /* DetailViewController.swift in Sources */,

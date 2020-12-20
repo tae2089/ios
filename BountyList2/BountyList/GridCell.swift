@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ListCell: UITableViewCell{
+class GridCell: UICollectionViewCell{
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var bountyLabel: UILabel!
