@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		ED6CB02526116C77003AB0A4 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CB02426116C77003AB0A4 /* PreviewController.swift */; };
 		ED81AF952613004100A6B444 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED81AF942613004100A6B444 /* Button.swift */; };
 		ED81AF992613098300A6B444 /* PreviewMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED81AF982613098300A6B444 /* PreviewMetalView.swift */; };
+=======
+>>>>>>> f1aad8980df24a8e815d635bda50ebe4eef7d125
 		ED968D862610A48B00548BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED968D852610A48B00548BA3 /* AppDelegate.swift */; };
 		ED968D882610A48B00548BA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED968D872610A48B00548BA3 /* SceneDelegate.swift */; };
 		ED968D8A2610A48B00548BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED968D892610A48B00548BA3 /* ViewController.swift */; };
@@ -19,9 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		ED6CB02426116C77003AB0A4 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
 		ED81AF942613004100A6B444 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		ED81AF982613098300A6B444 /* PreviewMetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewMetalView.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> f1aad8980df24a8e815d635bda50ebe4eef7d125
 		ED968D822610A48B00548BA3 /* AVFoudationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoudationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED968D852610A48B00548BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED968D872610A48B00548BA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		ED81AF932612FFCF00A6B444 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +58,8 @@
 			path = Camera;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> f1aad8980df24a8e815d635bda50ebe4eef7d125
 		ED968D792610A48B00548BA3 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +79,10 @@
 		ED968D842610A48B00548BA3 /* AVFoudationApp */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				ED81AF932612FFCF00A6B444 /* Camera */,
+=======
+>>>>>>> f1aad8980df24a8e815d635bda50ebe4eef7d125
 				ED968D852610A48B00548BA3 /* AppDelegate.swift */,
 				ED968D872610A48B00548BA3 /* SceneDelegate.swift */,
 				ED968D892610A48B00548BA3 /* ViewController.swift */,
@@ -78,8 +90,11 @@
 				ED968D8E2610A48E00548BA3 /* Assets.xcassets */,
 				ED968D902610A48E00548BA3 /* LaunchScreen.storyboard */,
 				ED968D932610A48E00548BA3 /* Info.plist */,
+<<<<<<< HEAD
 				ED6CB02426116C77003AB0A4 /* PreviewController.swift */,
 				ED81AF982613098300A6B444 /* PreviewMetalView.swift */,
+=======
+>>>>>>> f1aad8980df24a8e815d635bda50ebe4eef7d125
 			);
 			path = AVFoudationApp;
 			sourceTree = "<group>";
@@ -154,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				ED81AF952613004100A6B444 /* Button.swift in Sources */,
 				ED6CB02526116C77003AB0A4 /* PreviewController.swift in Sources */,
 				ED968D8A2610A48B00548BA3 /* ViewController.swift in Sources */,
 				ED81AF992613098300A6B444 /* PreviewMetalView.swift in Sources */,
+=======
+				ED968D8A2610A48B00548BA3 /* ViewController.swift in Sources */,
+>>>>>>> f1aad8980df24a8e815d635bda50ebe4eef7d125
 				ED968D862610A48B00548BA3 /* AppDelegate.swift in Sources */,
 				ED968D882610A48B00548BA3 /* SceneDelegate.swift in Sources */,
 			);
