@@ -1,0 +1,2016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B8689D491473EE5A2AE847F6E10C64 /* BlueprintLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C3F2BD585B90306BD603474FA3498E /* BlueprintLayout.swift */; };
+		019049768F9DFFCF770C09F9E92544CA /* FMMosaicLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5092A569D2BFBED1B137BE7CD8BDAEF /* FMMosaicLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01E07E0881B6C53B54805C6C9EF39ED2 /* MosaicPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F894D881AA2E526298CAF8A0ADFD33 /* MosaicPattern.swift */; };
+		0348E72A279882575367B52CE6A0C2B1 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4507AB793308C0660DD98053724626 /* M13CheckboxFlatController.swift */; };
+		04263A09EF09BFDCA9E9925AFC884A89 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB729375F46178E78C317E485EA165C2 /* Operation.swift */; };
+		08982E174571519BD50CE5E03255CE1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		09FA2DD29BC3C6018D65C54D37F7D90B /* FMMosaicLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C251E58783EE40B928B61B1C60BE58 /* FMMosaicLayout.m */; };
+		09FC674C6D0D898743624DB29A28592B /* DefinitionStartable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45DB1DA4AA3FF2CF01DEFE81B6B7C3 /* DefinitionStartable.swift */; };
+		111126B95BFDDEE351135CA11D13D36F /* Item+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5220D63AA9F44776F8AFE44CE3F18 /* Item+Delegate.swift */; };
+		163C5E5790663BEE7C844A5E0C733716 /* MosaicBlueprintPatternController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652700C2018BCF71A4007B871D2F864 /* MosaicBlueprintPatternController.swift */; };
+		18E16D6DC6CD0AF27EB35122A8FB8071 /* TRMosaicLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD3FE1C89FD17A34FE456B1EC3857C8 /* TRMosaicLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19C5F282D6605AF7C9026AF59C1B2F7C /* Item+Diffrenciable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E682CDDF0F1BE884B7624D5F831D28 /* Item+Diffrenciable.swift */; };
+		1A7FBF90F6EC671A737AB65E1E4EC03C /* CollectionViewReloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F808DD5D90A16ACC496828392883A3F /* CollectionViewReloadable.swift */; };
+		22F2F7782E72353C1A3013FA12DD8E83 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C36F79645C95CDDC8ADF705DAF94FC /* UICollectionView+Extensions.swift */; };
+		2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EFFC34B8DFD3DCF834F73C8970DE71 /* CheckMarkView.swift */; };
+		254315B3201BB02B083E2B189DD456E3 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D401ECD28ED1ABE7B90E39A507CE1BED /* M13Checkbox-dummy.m */; };
+		2587DDA1ACE04BB9FA9075DEFAA22937 /* Blueprints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F944848A3DCBF774D8F628CC6A1B15 /* Blueprints-dummy.m */; };
+		26C52454CFE077E16EDFC45D86CB7D7B /* Conv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D374019859378F2682CC7A0EE226A9 /* Conv.swift */; };
+		29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E601E3542DD51AC82E618E30BC2F834 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF42B83B4B0D01A66FB42DA12946453 /* BlueprintLayoutAnimator+iOS+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F179D523F4080B3148FE49B6AAA4B0 /* BlueprintLayoutAnimator+iOS+tvOS.swift */; };
+		2C47AC2303C9FBEB7FA8E1DD2D6F456A /* Pods-GalleryApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344BD2F91C11D888D09196E033F664F8 /* Pods-GalleryApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8193BB6356085EAD361BFC2D9984F3 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9F034BE453F7058231EB509DB22F2A /* TypeAlias.swift */; };
+		2D69B3A91B7BCB517D1CB4AB471D652A /* BlueprintInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4790A1AD9086C24BD9DBD295FC0283 /* BlueprintInvalidationContext.swift */; };
+		30E1962E96699B6CD645DB7AFEAD117F /* HorizontalBlueprintLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5983185FD95666B8EC66F6E332A42ED7 /* HorizontalBlueprintLayout.swift */; };
+		3188928DD3318F55B043B12BD2E1BFF6 /* Pods-GalleryApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA73516CF9F63412D92215E0E7566D1 /* Pods-GalleryApp-dummy.m */; };
+		34A7BB65050C8163EA45FB99DD8B864B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		350A971DF78EFE9D4FC7E199148A2E64 /* Differenciable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB49D00514DF85F398D3BC47D9E56E /* Differenciable.swift */; };
+		380A3446B20D054F1F9CD0E65466FEBF /* BlueprintLayoutAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF73448E9411E0E6044C0DBF6D5AE4 /* BlueprintLayoutAnimationType.swift */; };
+		3E3EB29E1A912DA51B5A537C152AA490 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0408906F0EF95AF675CFAB766EB402 /* M13CheckboxGestureRecognizer.swift */; };
+		3EEF62C894D3C148D0361C349BFBD527 /* Conv.h in Headers */ = {isa = PBXBuildFile; fileRef = DC846E336F4B7578E5A31B8F94C0FA38 /* Conv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F664A8F6FFCEEDB53D5D37C91FD2C4B /* OperationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382A4C0E3119DAE3C9F8D10FA26ABDC /* OperationSet.swift */; };
+		411CE8C67007BE401A3A353483912D2A /* InternalDifferenciable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292A50643DBE2555065F4CED3672E82E /* InternalDifferenciable.swift */; };
+		41254D82E5EED1E883B3BDBBE9424B56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		44957704D473CDFD43EDA86083E34B8D /* Section+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD576B5B4DFB21B77B74B73C6365375 /* Section+Delegate.swift */; };
+		44CD59D3A1AF61EAC47607B04162FE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		48CACEB6322937F0D0D5DB0D1D0FA8C6 /* SectionHeaderFooterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87F84414217A452F0E52EBFB505CB0F /* SectionHeaderFooterDelegate.swift */; };
+		4BF8471C5E4D6E5D0ABB09BF27DCF114 /* Section+Differenciable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F001A48EA090B3AD5CF0ED26483BB /* Section+Differenciable.swift */; };
+		4D7532DBD8F48F780C75D5458533A3AF /* CollectionViewDiffingRelodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A88637705928CA459D51531259D4A /* CollectionViewDiffingRelodable.swift */; };
+		4EA04B7F58057C3C09100B85F4A0FD27 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B49BD4F5987A2430F7A75BA08F9F1 /* UICollectionViewExtension.swift */; };
+		4FB050AF8F982BBA7B34AB849E6C4C45 /* Conv+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650152597EB4CD37C65072EAD94FD1E /* Conv+UIScrollViewDelegate.swift */; };
+		54097916D766BAE11B3888B26066C26D /* BlueprintLayout+iOS+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A44E0811F5D0AA3CC4EC8ACD7940A4C /* BlueprintLayout+iOS+tvOS.swift */; };
+		54295CEF5B5271B336B17776A282D3C6 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467679A4CEF363A1405A3A51ADFBE86 /* M13CheckboxStrokeController.swift */; };
+		56BC1A6298E10CCE7703ADBC5AD48FAC /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992CAB126585E06907846C961174241E /* M13CheckboxExpandController.swift */; };
+		5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE29CCBDD893C99F16F34E95DBFCA /* CheckMarkView-dummy.m */; };
+		619C808DBE385DD30840C7BD324AEDC2 /* Conv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06681EB327F2C48021E6662AF5D683E9 /* Conv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633E431A1B33CC7E6401F7AEB7041DE9 /* SupplementaryLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A391E76149C2499573466960C4722 /* SupplementaryLayoutAttributes.swift */; };
+		68D30DED0D56DAD9739869C4403AEF9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */; };
+		6AF8AE79F187D861A31CCDEEB7E6E043 /* TaggedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F062D3512E8411134B7C06059C15A56 /* TaggedExtension.swift */; };
+		6CCFEB45C41DB0BDBCB3B498B407772B /* ItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA087326A9542622BDA1A356023830 /* ItemDelegate.swift */; };
+		6EA6F5D37B60F4F885F82479DD0456AB /* DiffSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45205455EACE22C352E8B98AE6F50B81 /* DiffSection.swift */; };
+		76FAA9F6E53E4D51A45DDD34ADCEBF10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		78C8F5811B14E1E042A27A304C93243A /* BlueprintLayoutAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C21F96ECED329B893803F727828686 /* BlueprintLayoutAnimation.swift */; };
+		7CE71AB76365B4765EB97488B454AA3C /* Occurence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F61501B12C182F94A706941D599D4F /* Occurence.swift */; };
+		802236EF3CF3ABEBAE84AFF7C9182474 /* Conv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96782634D094D5DA25B525F489B0F74E /* Conv-dummy.m */; };
+		81E608C7D9FB6073D5BB072CAB01D494 /* TRMosaicColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80670A11107615A06D5BEC3D21A93B97 /* TRMosaicColumn.swift */; };
+		86B08F0A1D8259C8A2A44D43FA28B3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		886DBA39611E1244A736B42B5F262B6A /* VerticalMosaicBlueprintLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35746BED548C6284CAF4E00AD3202861 /* VerticalMosaicBlueprintLayout.swift */; };
+		89A18ADFA3A78307CF0A7846119C2F85 /* SectionHeaderFooterKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7DE7548A43C5393DB2D1C3F738504 /* SectionHeaderFooterKind.swift */; };
+		8AD7B729C01AF5F9A736CF2554280835 /* SectionHeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B06576E3EBB4BA82220B24A94FFC70 /* SectionHeaderFooter.swift */; };
+		8AEE519D15E54A0E91EF315B8450FDAB /* TRMosaicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7247AAF39DEC7D19DC20B04E59395070 /* TRMosaicLayout.swift */; };
+		8B62A308E46F3A8C33CEC149C065D543 /* SectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BF47FEA6BCBF45C9D40600244B3CF /* SectionDelegate.swift */; };
+		8CF16F4CFCB37FE994B07D26149CEB98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */; };
+		91DE47E4BCDE92CC97123C314723B3A8 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3682A8308C515E235BE7E92A4D520 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		93662CDAA71492E0AA6BABB9E6B2A154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		97A18E7CA66BA87E83A038BF75B2DCB2 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6B290B6728BE18199203681A119A6 /* M13CheckboxAnimationGenerator.swift */; };
+		98114E73EFDB72236419F232D9C4B39A /* SectionHeaderFooter+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086B762BAC654850FC42B5F3E9ACEBF /* SectionHeaderFooter+Delegate.swift */; };
+		99FBBAF5AEB8A1895DAB1752E3AB115C /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427C0B3AB18BE9326AD645D655283E56 /* M13CheckboxRadioPathGenerator.swift */; };
+		9CD5261A3C6DA84DFA839CC16CC1214F /* FMMosaicLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63442FB63314CDBCB1AD5A0235CE04C4 /* FMMosaicLayout-dummy.m */; };
+		9DC57463527D223030A5F769A75AA3DC /* DiffingDefinitionWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD709C928D2E2EA44F9359A445E0F559 /* DiffingDefinitionWrapper.swift */; };
+		A14D173D1A208AE9ADB6419B6BFBF426 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD174BF8AF3C608DBD0D96CC97C9D9B8 /* M13Checkbox.swift */; };
+		A268716B1EF31CA8DED912690FED1B3F /* BlueprintLayoutAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F245221CBAACDAE8573A4A7354BD3A /* BlueprintLayoutAnimator.swift */; };
+		A6DB9B92686EF749373DE8D76E5A6375 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D370E045D7E332092C52DEC4FB600 /* Then.swift */; };
+		A74373B5F55D5664C891BADA35C2A8AC /* Conv+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D6D4D980434B0DEBF057C2ECDA22CD /* Conv+UICollectionViewDataSource.swift */; };
+		A7448C3B3357059EE87853CFF2BE09C4 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64783D4B9764670C9A344214F83EE0B /* M13CheckboxAddRemovePathGenerator.swift */; };
+		AE32CE1F494D51291E92F6B0C29D7034 /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81370AF59B7AE6ABB4F3F290858E0E5A /* M13CheckboxSpiralController.swift */; };
+		AEF11B0B59FC34365BD1E8418F6F244A /* BlueprintSupplementaryKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E49A836265EA3E81CC55F48A9A970 /* BlueprintSupplementaryKind.swift */; };
+		B0471D9061D1AE1F54C08242A5773ECF /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C781B18B59B81DE7B6D44AEC17165E7 /* M13CheckboxFillController.swift */; };
+		B1CE6BC1A26DB3A79F229F11BDF2ADD5 /* DifferenciableIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FD217CF2C4C18B48541BC671A7F86 /* DifferenciableIndexPath.swift */; };
+		B323D65D6BE2950D9615F791E7A90A7F /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697129FCC348397F00541729CB30157B /* M13CheckboxDotController.swift */; };
+		B44452E245E4639BEF8428BE2B5E86DA /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB300C568305C6F511627C9B134FBF3 /* Reusable.swift */; };
+		B642D0A666A7B76CE25C412820331536 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5B954A6094A8BAF3BCE25B900B053 /* M13Checkbox+IB.swift */; };
+		B98002C37D8831B6C670B31FCC7DD937 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89FB8E101C2F793F358287ED158D4A /* BinarySearch.swift */; };
+		C2607E7E8749B1DD3F744E8BF7E0E732 /* IndexStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D11F484A7CADD4406DBDE8E7A07BD3 /* IndexStack.swift */; };
+		C2BA008A914F681607429815D2EDEA95 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65145FA4F5EE346E57368D929CCEA46E /* M13CheckboxPathGenerator.swift */; };
+		C9004DF399B08FA93EAD15249AB8B32D /* VerticalBlueprintLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1D2DDEFB07A14751F6F355F26B3F6 /* VerticalBlueprintLayout.swift */; };
+		C9F726768ABFFB3714D70F0E27D94718 /* SectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34184817B82E9786787AF29EA076EE85 /* SectionResult.swift */; };
+		CA89E0222ABBC43F957E4F3BF7F46142 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B47C6DF5E16970E7E33078C84FEC33D3 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D035EDC528DBF5BA980CDF5299828034 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD9AF19FAC6AE50555128883BB7D13 /* M13CheckboxBounceController.swift */; };
+		D15E74F6CDE2F11FF704DB8738DA73C9 /* FMMosaicLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 17824ED54546C41AB10DF5139648F40C /* FMMosaicLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1E9C4D33F517AE8CB008D584265E49F /* Conv+UICollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC79854E2518F46C0C1EACEEB278BE /* Conv+UICollectionViewDelegate.swift */; };
+		D5233EE525CA015250991CF3A64A1D4E /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56A7B3BBA58E05904CD93CC6D06FB3 /* Then-dummy.m */; };
+		D5514F6F3EFC1EE09C3B5C61A687842A /* BlueprintLayoutAnimator+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368983C39A4F374B1594A6D7DF5F9076 /* BlueprintLayoutAnimator+Extensions.swift */; };
+		D5584524FE609C7CD27E83BCB74CE685 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A36533BE9626BE58BC397393A6A66 /* M13CheckboxController.swift */; };
+		D7CE1E2B47A584EE0B56FB874EF9CA03 /* Blueprints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C6417567711C9B1F3C484C1D04FEC3 /* Blueprints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D934FA79A00040588873AFA83AE7F831 /* ParentReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08906F85BDB88141605C0F8F4B0B0FF /* ParentReferences.swift */; };
+		DA9407E8E541F6DE56C551D8B4A250B5 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5430028F1AA884D2C33FC8CDFDCA4B /* Diff.swift */; };
+		E08B31BE69E7F9FD79F888D6878470CE /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3571D938F5473921D19CA75BA1E857 /* DefaultValues.swift */; };
+		E092E2E3C38166D0F768F90662764C61 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1713B1CFA5ADCAC93710CF64845480 /* Item.swift */; };
+		E42B03282929DC2002F9A979C49800CC /* Conv+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8FD3EF89BFD444ED7A5BA0A127871 /* Conv+Helper.swift */; };
+		E9D6E5290AA728E26BB83686BABD683A /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F143A255279508DFDC389795B529CF /* M13CheckboxCheckPathGenerator.swift */; };
+		EC6FAF06C29A11E687434D7C5C1F4CE3 /* Conv+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFABD320E7F42521EF1E99498875212 /* Conv+UICollectionViewDelegateFlowLayout.swift */; };
+		EE9FCAA0B0FFFD3E930E191B6E28FF3E /* MosaicLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278E35152D4C76BE9BE299336E8EC55 /* MosaicLayoutAttributes.swift */; };
+		F064CA8E6BBD1B8FE46DE35A17EF952E /* TRMosaicLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBB63BFEB01E5C24B9603DC66FBC10 /* TRMosaicLayout-dummy.m */; };
+		F09CFC13C52B578A9E8E2B71BBD742F0 /* DiffItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A4CEE358C2E281B4933077689397A /* DiffItem.swift */; };
+		F3D641E528A223D2A4A8C761FCFE07CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		F80D9DE6C306B5125AD6A15ECCE04451 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F29EA4D5CC21ABC0DAFFEF01659C84AD /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE41F37463AB36B25B38E6148FAA011 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F892B114CBDAF3C82F5DA35EDCE05 /* Section.swift */; };
+		FDA0467EAC64EFAA5EA830508B148A20 /* DefaultLayoutAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F9596EEEDDF533802CEBF58CD44CA /* DefaultLayoutAnimator.swift */; };
+		FF6BF71F784703DB5F302C257245A51B /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD091D78C26CF9269CFFF726BB80D28 /* M13CheckboxFadeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF87970C6C43466BFD6CF0DBD5493D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F7E26D53F57EF2BAE3FDCD21AB2A69;
+			remoteInfo = CheckMarkView;
+		};
+		2B7D05938B3904C5602D5C3E3A2E46CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		5E5C03A369A74DD8FF4CC1C9C46ADD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3512592E59CCE0A2C2DEBF60C05426EF;
+			remoteInfo = FMMosaicLayout;
+		};
+		77F9F0B6E4A4A820811649B05B5B3193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F843D8B38D31B62C0201C3E2EC09005;
+			remoteInfo = Conv;
+		};
+		82E4320BF9EC60EE908C9AEB5E2C0ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6FC4C42CCE924FF1D3887F9FA7BB75;
+			remoteInfo = Blueprints;
+		};
+		C6110D88941E0A3819BD6A9C2A5A0535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B85019005BB260EA89A675A40860F3;
+			remoteInfo = TRMosaicLayout;
+		};
+		E132C200F6DD9E0ED517ABC9CEFA4ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F944848A3DCBF774D8F628CC6A1B15 /* Blueprints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Blueprints-dummy.m"; sourceTree = "<group>"; };
+		018A4CEE358C2E281B4933077689397A /* DiffItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiffItem.swift; path = Conv/Algorithm/Algorithm/DiffItem.swift; sourceTree = "<group>"; };
+		06681EB327F2C48021E6662AF5D683E9 /* Conv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Conv-umbrella.h"; sourceTree = "<group>"; };
+		08D3665968B224E03912507B2D0BBBCC /* Conv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Conv.framework; path = Conv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		095C0837092E4DA51BA58A59ECA84198 /* Conv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Conv.modulemap; sourceTree = "<group>"; };
+		09F894D881AA2E526298CAF8A0ADFD33 /* MosaicPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MosaicPattern.swift; path = Sources/Shared/Mosaic/MosaicPattern.swift; sourceTree = "<group>"; };
+		0B3571D938F5473921D19CA75BA1E857 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		0C795D2EE6975FA9DD00D0FBDFAD254C /* FMMosaicLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMMosaicLayout.framework; path = FMMosaicLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0378A6D324F9C8F0CE8FE211A49042 /* Blueprints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Blueprints.modulemap; sourceTree = "<group>"; };
+		0E3B712DCCC6E699DDD401C0E41A4C98 /* Pods-GalleryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GalleryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0FFABD320E7F42521EF1E99498875212 /* Conv+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Conv+UICollectionViewDelegateFlowLayout.swift"; path = "Conv/Conv/Conv+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		12BD9AF19FAC6AE50555128883BB7D13 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		15A590040FB3C7C3F06D24F6055BB136 /* TRMosaicLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRMosaicLayout.debug.xcconfig; sourceTree = "<group>"; };
+		1652700C2018BCF71A4007B871D2F864 /* MosaicBlueprintPatternController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MosaicBlueprintPatternController.swift; path = Sources/Shared/Mosaic/MosaicBlueprintPatternController.swift; sourceTree = "<group>"; };
+		17824ED54546C41AB10DF5139648F40C /* FMMosaicLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMosaicLayout.h; path = Pod/Classes/FMMosaicLayout.h; sourceTree = "<group>"; };
+		1885D615982E587796C73D7602BE4F42 /* FMMosaicLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMMosaicLayout-prefix.pch"; sourceTree = "<group>"; };
+		18F61501B12C182F94A706941D599D4F /* Occurence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Occurence.swift; path = Conv/Algorithm/Occurence.swift; sourceTree = "<group>"; };
+		1903A22461C4038781F2D81624BDD529 /* Pods-GalleryApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GalleryApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19E78E0783688C5BF3DDF3726A10CEB7 /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
+		1ADF73448E9411E0E6044C0DBF6D5AE4 /* BlueprintLayoutAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintLayoutAnimationType.swift; path = Sources/Shared/Core/BlueprintLayoutAnimationType.swift; sourceTree = "<group>"; };
+		1ED069BA5B73BF1EE6F92A79A6C8A626 /* FMMosaicLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMMosaicLayout.modulemap; sourceTree = "<group>"; };
+		1F808DD5D90A16ACC496828392883A3F /* CollectionViewReloadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewReloadable.swift; path = Conv/Conv/CollectionViewReloadable.swift; sourceTree = "<group>"; };
+		2650152597EB4CD37C65072EAD94FD1E /* Conv+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Conv+UIScrollViewDelegate.swift"; path = "Conv/Conv/Conv+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		292A50643DBE2555065F4CED3672E82E /* InternalDifferenciable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalDifferenciable.swift; path = "Conv/Algorithm/Differenciable+Internal/InternalDifferenciable.swift"; sourceTree = "<group>"; };
+		29F245221CBAACDAE8573A4A7354BD3A /* BlueprintLayoutAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintLayoutAnimator.swift; path = Sources/Shared/Core/BlueprintLayoutAnimator.swift; sourceTree = "<group>"; };
+		2A5E7C6FA3BFBD9D34690988E6E6263B /* FMMosaicLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMMosaicLayout-Info.plist"; sourceTree = "<group>"; };
+		2C781B18B59B81DE7B6D44AEC17165E7 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		2D4B9FB4B3F3B9973AF9BA674E2B7F49 /* Then-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Then-Info.plist"; sourceTree = "<group>"; };
+		3086B762BAC654850FC42B5F3E9ACEBF /* SectionHeaderFooter+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SectionHeaderFooter+Delegate.swift"; path = "Conv/SectionHeaderFooter/SectionHeaderFooter+Delegate.swift"; sourceTree = "<group>"; };
+		318795B8C324F916557896B3F151B73B /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		3382A4C0E3119DAE3C9F8D10FA26ABDC /* OperationSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationSet.swift; path = Conv/Algorithm/OperationSet.swift; sourceTree = "<group>"; };
+		34184817B82E9786787AF29EA076EE85 /* SectionResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionResult.swift; path = Conv/Algorithm/SectionResult.swift; sourceTree = "<group>"; };
+		344BD2F91C11D888D09196E033F664F8 /* Pods-GalleryApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GalleryApp-umbrella.h"; sourceTree = "<group>"; };
+		34CB49D00514DF85F398D3BC47D9E56E /* Differenciable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Differenciable.swift; path = Conv/Algorithm/Differenciable.swift; sourceTree = "<group>"; };
+		35746BED548C6284CAF4E00AD3202861 /* VerticalMosaicBlueprintLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalMosaicBlueprintLayout.swift; path = Sources/Shared/Mosaic/VerticalMosaicBlueprintLayout.swift; sourceTree = "<group>"; };
+		359F9596EEEDDF533802CEBF58CD44CA /* DefaultLayoutAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultLayoutAnimator.swift; path = Sources/Shared/Core/DefaultLayoutAnimator.swift; sourceTree = "<group>"; };
+		368983C39A4F374B1594A6D7DF5F9076 /* BlueprintLayoutAnimator+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BlueprintLayoutAnimator+Extensions.swift"; path = "Sources/Shared/Core/BlueprintLayoutAnimator+Extensions.swift"; sourceTree = "<group>"; };
+		3A1FD11DD8CD6EB5E537EFBA6A5CD844 /* Blueprints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blueprints-prefix.pch"; sourceTree = "<group>"; };
+		3B32DC3CC2C4D85C3A763510C1495495 /* M13Checkbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.release.xcconfig; sourceTree = "<group>"; };
+		3CF502908738CAE67ED7D392410BB50B /* Conv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Conv.debug.xcconfig; sourceTree = "<group>"; };
+		3F062D3512E8411134B7C06059C15A56 /* TaggedExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaggedExtension.swift; path = Conv/Conv/TaggedExtension.swift; sourceTree = "<group>"; };
+		427C0B3AB18BE9326AD645D655283E56 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		45205455EACE22C352E8B98AE6F50B81 /* DiffSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiffSection.swift; path = Conv/Algorithm/Algorithm/DiffSection.swift; sourceTree = "<group>"; };
+		45F179D523F4080B3148FE49B6AAA4B0 /* BlueprintLayoutAnimator+iOS+tvOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BlueprintLayoutAnimator+iOS+tvOS.swift"; path = "Sources/iOS+tvOS/Extensions/BlueprintLayoutAnimator+iOS+tvOS.swift"; sourceTree = "<group>"; };
+		47D374019859378F2682CC7A0EE226A9 /* Conv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Conv.swift; path = Conv/Conv/Conv.swift; sourceTree = "<group>"; };
+		4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD091D78C26CF9269CFFF726BB80D28 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		4EA73516CF9F63412D92215E0E7566D1 /* Pods-GalleryApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GalleryApp-dummy.m"; sourceTree = "<group>"; };
+		50D52AE0BE9F8AB8BFFD299C1DC9321B /* TRMosaicLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRMosaicLayout-prefix.pch"; sourceTree = "<group>"; };
+		548110A6270166EB2C057B49ECCD8245 /* Blueprints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blueprints.release.xcconfig; sourceTree = "<group>"; };
+		54CA444B9EB3518591FFEB5C33288D23 /* Conv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Conv.release.xcconfig; sourceTree = "<group>"; };
+		54EFFC34B8DFD3DCF834F73C8970DE71 /* CheckMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckMarkView.swift; path = CheckMarkView/Sources/CheckMarkView.swift; sourceTree = "<group>"; };
+		553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5983185FD95666B8EC66F6E332A42ED7 /* HorizontalBlueprintLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBlueprintLayout.swift; path = Sources/Shared/Core/HorizontalBlueprintLayout.swift; sourceTree = "<group>"; };
+		59F5220D63AA9F44776F8AFE44CE3F18 /* Item+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+Delegate.swift"; path = "Conv/Item/Item+Delegate.swift"; sourceTree = "<group>"; };
+		5AC7DE7548A43C5393DB2D1C3F738504 /* SectionHeaderFooterKind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionHeaderFooterKind.swift; path = Conv/SectionHeaderFooter/SectionHeaderFooterKind.swift; sourceTree = "<group>"; };
+		5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616AA57F994DD63FE26B9BA5984EE9FE /* Pods-GalleryApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GalleryApp-frameworks.sh"; sourceTree = "<group>"; };
+		62A13DE04F822D24D4CD00DDBE9C26B8 /* Then.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.release.xcconfig; sourceTree = "<group>"; };
+		63442FB63314CDBCB1AD5A0235CE04C4 /* FMMosaicLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMMosaicLayout-dummy.m"; sourceTree = "<group>"; };
+		635F001A48EA090B3AD5CF0ED26483BB /* Section+Differenciable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Section+Differenciable.swift"; path = "Conv/Section/Section+Differenciable.swift"; sourceTree = "<group>"; };
+		6467679A4CEF363A1405A3A51ADFBE86 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		65145FA4F5EE346E57368D929CCEA46E /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		657D86BD8D188A9206F59BE7FA44F406 /* Blueprints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blueprints.debug.xcconfig; sourceTree = "<group>"; };
+		660FD217CF2C4C18B48541BC671A7F86 /* DifferenciableIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DifferenciableIndexPath.swift; path = Conv/Algorithm/DifferenciableIndexPath.swift; sourceTree = "<group>"; };
+		697129FCC348397F00541729CB30157B /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		6CD576B5B4DFB21B77B74B73C6365375 /* Section+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Section+Delegate.swift"; path = "Conv/Section/Section+Delegate.swift"; sourceTree = "<group>"; };
+		6E601E3542DD51AC82E618E30BC2F834 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
+		6FAC9FCEC2126F002C4F1FE3E3A3B841 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		71C251E58783EE40B928B61B1C60BE58 /* FMMosaicLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMMosaicLayout.m; path = Pod/Classes/FMMosaicLayout.m; sourceTree = "<group>"; };
+		7247AAF39DEC7D19DC20B04E59395070 /* TRMosaicLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TRMosaicLayout.swift; path = TRMosaicLayout/Classes/TRMosaicLayout.swift; sourceTree = "<group>"; };
+		78E682CDDF0F1BE884B7624D5F831D28 /* Item+Diffrenciable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+Diffrenciable.swift"; path = "Conv/Item/Item+Diffrenciable.swift"; sourceTree = "<group>"; };
+		7B0408906F0EF95AF675CFAB766EB402 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		7EC653782CE5093832B08623BBD335F5 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		80670A11107615A06D5BEC3D21A93B97 /* TRMosaicColumn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TRMosaicColumn.swift; path = TRMosaicLayout/Classes/TRMosaicColumn.swift; sourceTree = "<group>"; };
+		80C21F96ECED329B893803F727828686 /* BlueprintLayoutAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintLayoutAnimation.swift; path = Sources/Shared/Core/BlueprintLayoutAnimation.swift; sourceTree = "<group>"; };
+		81370AF59B7AE6ABB4F3F290858E0E5A /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		879EAD0A85EF136DAAB26AC2877E3F9F /* CheckMarkView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.release.xcconfig; sourceTree = "<group>"; };
+		8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A44E0811F5D0AA3CC4EC8ACD7940A4C /* BlueprintLayout+iOS+tvOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BlueprintLayout+iOS+tvOS.swift"; path = "Sources/iOS+tvOS/Extensions/BlueprintLayout+iOS+tvOS.swift"; sourceTree = "<group>"; };
+		8AEFC07C3782738833EA89F79FB3A734 /* FMMosaicLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMMosaicLayout.debug.xcconfig; sourceTree = "<group>"; };
+		8CECD4694D018CF504902F0208E64522 /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
+		8E4A36533BE9626BE58BC397393A6A66 /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		8E5430028F1AA884D2C33FC8CDFDCA4B /* Diff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diff.swift; path = Conv/Algorithm/Algorithm/Diff.swift; sourceTree = "<group>"; };
+		9317E4947CA2FE1B5D5999034C09CCA7 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94892EB73FE090F7134419405D5B7A47 /* Pods_GalleryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GalleryApp.framework; path = "Pods-GalleryApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9506188411706C8D71D2DE7375792A97 /* Pods-GalleryApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GalleryApp-Info.plist"; sourceTree = "<group>"; };
+		952A391E76149C2499573466960C4722 /* SupplementaryLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupplementaryLayoutAttributes.swift; path = Sources/Shared/Core/SupplementaryLayoutAttributes.swift; sourceTree = "<group>"; };
+		96782634D094D5DA25B525F489B0F74E /* Conv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Conv-dummy.m"; sourceTree = "<group>"; };
+		977B49BD4F5987A2430F7A75BA08F9F1 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewExtension.swift; path = Conv/Conv/UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		992CAB126585E06907846C961174241E /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		9B305807197240EE43E02E5FDE102468 /* TRMosaicLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRMosaicLayout.release.xcconfig; sourceTree = "<group>"; };
+		9B3CE29CCBDD893C99F16F34E95DBFCA /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
+		9CAA087326A9542622BDA1A356023830 /* ItemDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemDelegate.swift; path = Conv/Item/ItemDelegate.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F89FB8E101C2F793F358287ED158D4A /* BinarySearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinarySearch.swift; path = Sources/Shared/Core/BinarySearch.swift; sourceTree = "<group>"; };
+		9FDBB63BFEB01E5C24B9603DC66FBC10 /* TRMosaicLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRMosaicLayout-dummy.m"; sourceTree = "<group>"; };
+		A08906F85BDB88141605C0F8F4B0B0FF /* ParentReferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParentReferences.swift; path = Conv/Algorithm/ParentReferences.swift; sourceTree = "<group>"; };
+		A1C3F2BD585B90306BD603474FA3498E /* BlueprintLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintLayout.swift; path = Sources/Shared/Core/BlueprintLayout.swift; sourceTree = "<group>"; };
+		A1F143A255279508DFDC389795B529CF /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		A6B06576E3EBB4BA82220B24A94FFC70 /* SectionHeaderFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionHeaderFooter.swift; path = Conv/SectionHeaderFooter/SectionHeaderFooter.swift; sourceTree = "<group>"; };
+		A7135E395E07B8B24C9D618380C3C7A2 /* TRMosaicLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRMosaicLayout.modulemap; sourceTree = "<group>"; };
+		A7BC15C4A9D224B3AFC7FECCE8F26FEC /* Pods-GalleryApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GalleryApp.modulemap"; sourceTree = "<group>"; };
+		AA4507AB793308C0660DD98053724626 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		AA56A7B3BBA58E05904CD93CC6D06FB3 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		ABF5B954A6094A8BAF3BCE25B900B053 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		AE842BBB922A4B52DFFCFD525BA1EEFA /* M13Checkbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.debug.xcconfig; sourceTree = "<group>"; };
+		B1C36F79645C95CDDC8ADF705DAF94FC /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "Sources/iOS+tvOS/Extensions/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		B3D959307432893B26621731F81FCAB8 /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
+		B47C6DF5E16970E7E33078C84FEC33D3 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		B64783D4B9764670C9A344214F83EE0B /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		B98C18D60C413D3330607308700F5AC4 /* Pods-GalleryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GalleryApp.release.xcconfig"; sourceTree = "<group>"; };
+		B9A1D2DDEFB07A14751F6F355F26B3F6 /* VerticalBlueprintLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalBlueprintLayout.swift; path = Sources/Shared/Core/VerticalBlueprintLayout.swift; sourceTree = "<group>"; };
+		BB4790A1AD9086C24BD9DBD295FC0283 /* BlueprintInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintInvalidationContext.swift; path = Sources/Shared/Core/BlueprintInvalidationContext.swift; sourceTree = "<group>"; };
+		BC45DB1DA4AA3FF2CF01DEFE81B6B7C3 /* DefinitionStartable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefinitionStartable.swift; path = Conv/Conv/DefinitionStartable.swift; sourceTree = "<group>"; };
+		BD174BF8AF3C608DBD0D96CC97C9D9B8 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		BDB8FD3EF89BFD444ED7A5BA0A127871 /* Conv+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Conv+Helper.swift"; path = "Conv/Conv/Conv+Helper.swift"; sourceTree = "<group>"; };
+		C136E16277E5369F47A487E87237A382 /* Conv-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Conv-prefix.pch"; sourceTree = "<group>"; };
+		C23826A243A67D81879F5E9F8D1AE38B /* Pods-GalleryApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GalleryApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3D11F484A7CADD4406DBDE8E7A07BD3 /* IndexStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexStack.swift; path = Conv/Algorithm/IndexStack.swift; sourceTree = "<group>"; };
+		C42D370E045D7E332092C52DEC4FB600 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
+		C5092A569D2BFBED1B137BE7CD8BDAEF /* FMMosaicLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMMosaicLayout-umbrella.h"; sourceTree = "<group>"; };
+		CAC6B290B6728BE18199203681A119A6 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		CB729375F46178E78C317E485EA165C2 /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Conv/Algorithm/Operation.swift; sourceTree = "<group>"; };
+		CBD3682A8308C515E235BE7E92A4D520 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		CCA2E4677A5560C6E47D72A76CB3A9CD /* FMMosaicLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMMosaicLayout.release.xcconfig; sourceTree = "<group>"; };
+		CD709C928D2E2EA44F9359A445E0F559 /* DiffingDefinitionWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiffingDefinitionWrapper.swift; path = Conv/Conv/DiffingDefinitionWrapper.swift; sourceTree = "<group>"; };
+		CF1713B1CFA5ADCAC93710CF64845480 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Conv/Item/Item.swift; sourceTree = "<group>"; };
+		CF8A16148322400141225416F7D1C689 /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Then.modulemap; sourceTree = "<group>"; };
+		D01BC44E4C25B22036B978BFEEE0380C /* Blueprints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Blueprints-Info.plist"; sourceTree = "<group>"; };
+		D0C6417567711C9B1F3C484C1D04FEC3 /* Blueprints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blueprints-umbrella.h"; sourceTree = "<group>"; };
+		D1CC79854E2518F46C0C1EACEEB278BE /* Conv+UICollectionViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Conv+UICollectionViewDelegate.swift"; path = "Conv/Conv/Conv+UICollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		D3097DB38338C0FDCFB5867C2BD6E0F6 /* TRMosaicLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRMosaicLayout.framework; path = TRMosaicLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D401ECD28ED1ABE7B90E39A507CE1BED /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		D5D6D4D980434B0DEBF057C2ECDA22CD /* Conv+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Conv+UICollectionViewDataSource.swift"; path = "Conv/Conv/Conv+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		DC846E336F4B7578E5A31B8F94C0FA38 /* Conv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Conv.h; path = Conv/Conv.h; sourceTree = "<group>"; };
+		DE9F034BE453F7058231EB509DB22F2A /* TypeAlias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeAlias.swift; path = Sources/Shared/Core/TypeAlias.swift; sourceTree = "<group>"; };
+		DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E278E35152D4C76BE9BE299336E8EC55 /* MosaicLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MosaicLayoutAttributes.swift; path = Sources/Shared/Mosaic/MosaicLayoutAttributes.swift; sourceTree = "<group>"; };
+		E3D4F55A323EFF248A7A3DC7BA61BCC5 /* Blueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Blueprints.framework; path = Blueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50AEE49CFAAF085BF663C970E7D2C9C /* TRMosaicLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TRMosaicLayout-Info.plist"; sourceTree = "<group>"; };
+		E59F892B114CBDAF3C82F5DA35EDCE05 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Conv/Section/Section.swift; sourceTree = "<group>"; };
+		E6E0137F25BE2A715FE594DC2D542B29 /* CheckMarkView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.debug.xcconfig; sourceTree = "<group>"; };
+		E821C70BA7687E3F700F1E8370F877E1 /* Then.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.debug.xcconfig; sourceTree = "<group>"; };
+		ECB300C568305C6F511627C9B134FBF3 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Conv/Reusable/Reusable.swift; sourceTree = "<group>"; };
+		ECD3FE1C89FD17A34FE456B1EC3857C8 /* TRMosaicLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRMosaicLayout-umbrella.h"; sourceTree = "<group>"; };
+		ED1E49A836265EA3E81CC55F48A9A970 /* BlueprintSupplementaryKind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintSupplementaryKind.swift; path = Sources/Shared/Core/BlueprintSupplementaryKind.swift; sourceTree = "<group>"; };
+		F29EA4D5CC21ABC0DAFFEF01659C84AD /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
+		F31A88637705928CA459D51531259D4A /* CollectionViewDiffingRelodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewDiffingRelodable.swift; path = Conv/Conv/CollectionViewDiffingRelodable.swift; sourceTree = "<group>"; };
+		F50BF47FEA6BCBF45C9D40600244B3CF /* SectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionDelegate.swift; path = Conv/Section/SectionDelegate.swift; sourceTree = "<group>"; };
+		F81FCE059B8515A6BC5611DE60CF1B37 /* M13Checkbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M13Checkbox-Info.plist"; sourceTree = "<group>"; };
+		F87F84414217A452F0E52EBFB505CB0F /* SectionHeaderFooterDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionHeaderFooterDelegate.swift; path = Conv/SectionHeaderFooter/SectionHeaderFooterDelegate.swift; sourceTree = "<group>"; };
+		F9B503BDE3E55EC8B6AB2C3371263C6D /* Conv-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Conv-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044E0DF3E8A742E72242925B2FFEF0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D30DED0D56DAD9739869C4403AEF9B /* CoreGraphics.framework in Frameworks */,
+				44CD59D3A1AF61EAC47607B04162FE90 /* Foundation.framework in Frameworks */,
+				8CF16F4CFCB37FE994B07D26149CEB98 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C5D1DF0B0903E84F8E9B2CDB05A61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FAA9F6E53E4D51A45DDD34ADCEBF10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B08F0A1D8259C8A2A44D43FA28B3D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D04704F017F4F08EF9312D1FE817B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41254D82E5EED1E883B3BDBBE9424B56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B471A0CF7A79BA15388DCEBD29ABA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08982E174571519BD50CE5E03255CE1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B38A91F8390E6A008AF4F81D574EC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93662CDAA71492E0AA6BABB9E6B2A154 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2381C108E1DF958722DC1E2D0B01B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A7BB65050C8163EA45FB99DD8B864B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9CD5DD9DDC006ED8876DCCE45E6834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D641E528A223D2A4A8C761FCFE07CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02090E50F4664853DA6BDC3F455AD129 /* TRMosaicLayout */ = {
+			isa = PBXGroup;
+			children = (
+				80670A11107615A06D5BEC3D21A93B97 /* TRMosaicColumn.swift */,
+				7247AAF39DEC7D19DC20B04E59395070 /* TRMosaicLayout.swift */,
+				2114D3D0A2E594DDDF0D0023D9249D9F /* Support Files */,
+			);
+			name = TRMosaicLayout;
+			path = TRMosaicLayout;
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D8528256A7AF28D53631225E57465A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		112D5F639DFC837F717A149E5C7EF330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4F55A323EFF248A7A3DC7BA61BCC5 /* Blueprints.framework */,
+				4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */,
+				08D3665968B224E03912507B2D0BBBCC /* Conv.framework */,
+				0C795D2EE6975FA9DD00D0FBDFAD254C /* FMMosaicLayout.framework */,
+				5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */,
+				94892EB73FE090F7134419405D5B7A47 /* Pods_GalleryApp.framework */,
+				9317E4947CA2FE1B5D5999034C09CCA7 /* Then.framework */,
+				D3097DB38338C0FDCFB5867C2BD6E0F6 /* TRMosaicLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D8528256A7AF28D53631225E57465A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */,
+				8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */,
+				DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2114D3D0A2E594DDDF0D0023D9249D9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7135E395E07B8B24C9D618380C3C7A2 /* TRMosaicLayout.modulemap */,
+				9FDBB63BFEB01E5C24B9603DC66FBC10 /* TRMosaicLayout-dummy.m */,
+				E50AEE49CFAAF085BF663C970E7D2C9C /* TRMosaicLayout-Info.plist */,
+				50D52AE0BE9F8AB8BFFD299C1DC9321B /* TRMosaicLayout-prefix.pch */,
+				ECD3FE1C89FD17A34FE456B1EC3857C8 /* TRMosaicLayout-umbrella.h */,
+				15A590040FB3C7C3F06D24F6055BB136 /* TRMosaicLayout.debug.xcconfig */,
+				9B305807197240EE43E02E5FDE102468 /* TRMosaicLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TRMosaicLayout";
+			sourceTree = "<group>";
+		};
+		2EF0E4C3993D94190F371193B9361A50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A16148322400141225416F7D1C689 /* Then.modulemap */,
+				AA56A7B3BBA58E05904CD93CC6D06FB3 /* Then-dummy.m */,
+				2D4B9FB4B3F3B9973AF9BA674E2B7F49 /* Then-Info.plist */,
+				318795B8C324F916557896B3F151B73B /* Then-prefix.pch */,
+				F29EA4D5CC21ABC0DAFFEF01659C84AD /* Then-umbrella.h */,
+				E821C70BA7687E3F700F1E8370F877E1 /* Then.debug.xcconfig */,
+				62A13DE04F822D24D4CD00DDBE9C26B8 /* Then.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Then";
+			sourceTree = "<group>";
+		};
+		4C435E69DF0341A554E9AA60640E1D97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19E78E0783688C5BF3DDF3726A10CEB7 /* CheckMarkView.modulemap */,
+				9B3CE29CCBDD893C99F16F34E95DBFCA /* CheckMarkView-dummy.m */,
+				8CECD4694D018CF504902F0208E64522 /* CheckMarkView-Info.plist */,
+				B3D959307432893B26621731F81FCAB8 /* CheckMarkView-prefix.pch */,
+				6E601E3542DD51AC82E618E30BC2F834 /* CheckMarkView-umbrella.h */,
+				E6E0137F25BE2A715FE594DC2D542B29 /* CheckMarkView.debug.xcconfig */,
+				879EAD0A85EF136DAAB26AC2877E3F9F /* CheckMarkView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CheckMarkView";
+			sourceTree = "<group>";
+		};
+		7471FDA3579D1A23D20908BB53AD2E7A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E8572AD5A362CA47CB7D88C7A062C /* Pods-GalleryApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8609BAF123BF0E697FC28EA443DC174B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ED069BA5B73BF1EE6F92A79A6C8A626 /* FMMosaicLayout.modulemap */,
+				63442FB63314CDBCB1AD5A0235CE04C4 /* FMMosaicLayout-dummy.m */,
+				2A5E7C6FA3BFBD9D34690988E6E6263B /* FMMosaicLayout-Info.plist */,
+				1885D615982E587796C73D7602BE4F42 /* FMMosaicLayout-prefix.pch */,
+				C5092A569D2BFBED1B137BE7CD8BDAEF /* FMMosaicLayout-umbrella.h */,
+				8AEFC07C3782738833EA89F79FB3A734 /* FMMosaicLayout.debug.xcconfig */,
+				CCA2E4677A5560C6E47D72A76CB3A9CD /* FMMosaicLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMMosaicLayout";
+			sourceTree = "<group>";
+		};
+		9E00FAA9CC98A2986A2171A3F2AD3665 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				C42D370E045D7E332092C52DEC4FB600 /* Then.swift */,
+				2EF0E4C3993D94190F371193B9361A50 /* Support Files */,
+			);
+			name = Then;
+			path = Then;
+			sourceTree = "<group>";
+		};
+		9E6E8572AD5A362CA47CB7D88C7A062C /* Pods-GalleryApp */ = {
+			isa = PBXGroup;
+			children = (
+				A7BC15C4A9D224B3AFC7FECCE8F26FEC /* Pods-GalleryApp.modulemap */,
+				1903A22461C4038781F2D81624BDD529 /* Pods-GalleryApp-acknowledgements.markdown */,
+				C23826A243A67D81879F5E9F8D1AE38B /* Pods-GalleryApp-acknowledgements.plist */,
+				4EA73516CF9F63412D92215E0E7566D1 /* Pods-GalleryApp-dummy.m */,
+				616AA57F994DD63FE26B9BA5984EE9FE /* Pods-GalleryApp-frameworks.sh */,
+				9506188411706C8D71D2DE7375792A97 /* Pods-GalleryApp-Info.plist */,
+				344BD2F91C11D888D09196E033F664F8 /* Pods-GalleryApp-umbrella.h */,
+				0E3B712DCCC6E699DDD401C0E41A4C98 /* Pods-GalleryApp.debug.xcconfig */,
+				B98C18D60C413D3330607308700F5AC4 /* Pods-GalleryApp.release.xcconfig */,
+			);
+			name = "Pods-GalleryApp";
+			path = "Target Support Files/Pods-GalleryApp";
+			sourceTree = "<group>";
+		};
+		A1BAA1B6D554ABF44A3FE8B3FE604BB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				095C0837092E4DA51BA58A59ECA84198 /* Conv.modulemap */,
+				96782634D094D5DA25B525F489B0F74E /* Conv-dummy.m */,
+				F9B503BDE3E55EC8B6AB2C3371263C6D /* Conv-Info.plist */,
+				C136E16277E5369F47A487E87237A382 /* Conv-prefix.pch */,
+				06681EB327F2C48021E6662AF5D683E9 /* Conv-umbrella.h */,
+				3CF502908738CAE67ED7D392410BB50B /* Conv.debug.xcconfig */,
+				54CA444B9EB3518591FFEB5C33288D23 /* Conv.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Conv";
+			sourceTree = "<group>";
+		};
+		B31E1E597FA2D27EA5AD99492955E03A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D0378A6D324F9C8F0CE8FE211A49042 /* Blueprints.modulemap */,
+				00F944848A3DCBF774D8F628CC6A1B15 /* Blueprints-dummy.m */,
+				D01BC44E4C25B22036B978BFEEE0380C /* Blueprints-Info.plist */,
+				3A1FD11DD8CD6EB5E537EFBA6A5CD844 /* Blueprints-prefix.pch */,
+				D0C6417567711C9B1F3C484C1D04FEC3 /* Blueprints-umbrella.h */,
+				657D86BD8D188A9206F59BE7FA44F406 /* Blueprints.debug.xcconfig */,
+				548110A6270166EB2C057B49ECCD8245 /* Blueprints.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Blueprints";
+			sourceTree = "<group>";
+		};
+		BC96321362DD7424D6CD136D9330BDD0 /* CheckMarkView */ = {
+			isa = PBXGroup;
+			children = (
+				54EFFC34B8DFD3DCF834F73C8970DE71 /* CheckMarkView.swift */,
+				4C435E69DF0341A554E9AA60640E1D97 /* Support Files */,
+			);
+			name = CheckMarkView;
+			path = CheckMarkView;
+			sourceTree = "<group>";
+		};
+		BCFB5605A667314EEDE221792351A266 /* Conv */ = {
+			isa = PBXGroup;
+			children = (
+				F31A88637705928CA459D51531259D4A /* CollectionViewDiffingRelodable.swift */,
+				1F808DD5D90A16ACC496828392883A3F /* CollectionViewReloadable.swift */,
+				DC846E336F4B7578E5A31B8F94C0FA38 /* Conv.h */,
+				47D374019859378F2682CC7A0EE226A9 /* Conv.swift */,
+				BDB8FD3EF89BFD444ED7A5BA0A127871 /* Conv+Helper.swift */,
+				D5D6D4D980434B0DEBF057C2ECDA22CD /* Conv+UICollectionViewDataSource.swift */,
+				D1CC79854E2518F46C0C1EACEEB278BE /* Conv+UICollectionViewDelegate.swift */,
+				0FFABD320E7F42521EF1E99498875212 /* Conv+UICollectionViewDelegateFlowLayout.swift */,
+				2650152597EB4CD37C65072EAD94FD1E /* Conv+UIScrollViewDelegate.swift */,
+				BC45DB1DA4AA3FF2CF01DEFE81B6B7C3 /* DefinitionStartable.swift */,
+				8E5430028F1AA884D2C33FC8CDFDCA4B /* Diff.swift */,
+				34CB49D00514DF85F398D3BC47D9E56E /* Differenciable.swift */,
+				660FD217CF2C4C18B48541BC671A7F86 /* DifferenciableIndexPath.swift */,
+				CD709C928D2E2EA44F9359A445E0F559 /* DiffingDefinitionWrapper.swift */,
+				018A4CEE358C2E281B4933077689397A /* DiffItem.swift */,
+				45205455EACE22C352E8B98AE6F50B81 /* DiffSection.swift */,
+				C3D11F484A7CADD4406DBDE8E7A07BD3 /* IndexStack.swift */,
+				292A50643DBE2555065F4CED3672E82E /* InternalDifferenciable.swift */,
+				CF1713B1CFA5ADCAC93710CF64845480 /* Item.swift */,
+				59F5220D63AA9F44776F8AFE44CE3F18 /* Item+Delegate.swift */,
+				78E682CDDF0F1BE884B7624D5F831D28 /* Item+Diffrenciable.swift */,
+				9CAA087326A9542622BDA1A356023830 /* ItemDelegate.swift */,
+				18F61501B12C182F94A706941D599D4F /* Occurence.swift */,
+				CB729375F46178E78C317E485EA165C2 /* Operation.swift */,
+				3382A4C0E3119DAE3C9F8D10FA26ABDC /* OperationSet.swift */,
+				A08906F85BDB88141605C0F8F4B0B0FF /* ParentReferences.swift */,
+				ECB300C568305C6F511627C9B134FBF3 /* Reusable.swift */,
+				E59F892B114CBDAF3C82F5DA35EDCE05 /* Section.swift */,
+				6CD576B5B4DFB21B77B74B73C6365375 /* Section+Delegate.swift */,
+				635F001A48EA090B3AD5CF0ED26483BB /* Section+Differenciable.swift */,
+				F50BF47FEA6BCBF45C9D40600244B3CF /* SectionDelegate.swift */,
+				A6B06576E3EBB4BA82220B24A94FFC70 /* SectionHeaderFooter.swift */,
+				3086B762BAC654850FC42B5F3E9ACEBF /* SectionHeaderFooter+Delegate.swift */,
+				F87F84414217A452F0E52EBFB505CB0F /* SectionHeaderFooterDelegate.swift */,
+				5AC7DE7548A43C5393DB2D1C3F738504 /* SectionHeaderFooterKind.swift */,
+				34184817B82E9786787AF29EA076EE85 /* SectionResult.swift */,
+				3F062D3512E8411134B7C06059C15A56 /* TaggedExtension.swift */,
+				977B49BD4F5987A2430F7A75BA08F9F1 /* UICollectionViewExtension.swift */,
+				A1BAA1B6D554ABF44A3FE8B3FE604BB9 /* Support Files */,
+			);
+			name = Conv;
+			path = Conv;
+			sourceTree = "<group>";
+		};
+		C0ABC8D75B16950CB116F57638387DDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CECEAA256A99D9D036C421EC2A3887F9 /* Blueprints */,
+				BC96321362DD7424D6CD136D9330BDD0 /* CheckMarkView */,
+				BCFB5605A667314EEDE221792351A266 /* Conv */,
+				F4B4ADC666F9A6B50E6A855F8201DD0E /* FMMosaicLayout */,
+				C65502C9910B0AF55A6122CA801E2111 /* M13Checkbox */,
+				9E00FAA9CC98A2986A2171A3F2AD3665 /* Then */,
+				02090E50F4664853DA6BDC3F455AD129 /* TRMosaicLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C65502C9910B0AF55A6122CA801E2111 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				0B3571D938F5473921D19CA75BA1E857 /* DefaultValues.swift */,
+				BD174BF8AF3C608DBD0D96CC97C9D9B8 /* M13Checkbox.swift */,
+				ABF5B954A6094A8BAF3BCE25B900B053 /* M13Checkbox+IB.swift */,
+				B64783D4B9764670C9A344214F83EE0B /* M13CheckboxAddRemovePathGenerator.swift */,
+				CAC6B290B6728BE18199203681A119A6 /* M13CheckboxAnimationGenerator.swift */,
+				12BD9AF19FAC6AE50555128883BB7D13 /* M13CheckboxBounceController.swift */,
+				A1F143A255279508DFDC389795B529CF /* M13CheckboxCheckPathGenerator.swift */,
+				8E4A36533BE9626BE58BC397393A6A66 /* M13CheckboxController.swift */,
+				CBD3682A8308C515E235BE7E92A4D520 /* M13CheckboxDisclosurePathGenerator.swift */,
+				697129FCC348397F00541729CB30157B /* M13CheckboxDotController.swift */,
+				992CAB126585E06907846C961174241E /* M13CheckboxExpandController.swift */,
+				4BD091D78C26CF9269CFFF726BB80D28 /* M13CheckboxFadeController.swift */,
+				2C781B18B59B81DE7B6D44AEC17165E7 /* M13CheckboxFillController.swift */,
+				AA4507AB793308C0660DD98053724626 /* M13CheckboxFlatController.swift */,
+				7B0408906F0EF95AF675CFAB766EB402 /* M13CheckboxGestureRecognizer.swift */,
+				65145FA4F5EE346E57368D929CCEA46E /* M13CheckboxPathGenerator.swift */,
+				427C0B3AB18BE9326AD645D655283E56 /* M13CheckboxRadioPathGenerator.swift */,
+				81370AF59B7AE6ABB4F3F290858E0E5A /* M13CheckboxSpiralController.swift */,
+				6467679A4CEF363A1405A3A51ADFBE86 /* M13CheckboxStrokeController.swift */,
+				DC1623BE39FDB923CFA2E75F2B8FFBB8 /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		CECEAA256A99D9D036C421EC2A3887F9 /* Blueprints */ = {
+			isa = PBXGroup;
+			children = (
+				9F89FB8E101C2F793F358287ED158D4A /* BinarySearch.swift */,
+				BB4790A1AD9086C24BD9DBD295FC0283 /* BlueprintInvalidationContext.swift */,
+				A1C3F2BD585B90306BD603474FA3498E /* BlueprintLayout.swift */,
+				8A44E0811F5D0AA3CC4EC8ACD7940A4C /* BlueprintLayout+iOS+tvOS.swift */,
+				80C21F96ECED329B893803F727828686 /* BlueprintLayoutAnimation.swift */,
+				1ADF73448E9411E0E6044C0DBF6D5AE4 /* BlueprintLayoutAnimationType.swift */,
+				29F245221CBAACDAE8573A4A7354BD3A /* BlueprintLayoutAnimator.swift */,
+				368983C39A4F374B1594A6D7DF5F9076 /* BlueprintLayoutAnimator+Extensions.swift */,
+				45F179D523F4080B3148FE49B6AAA4B0 /* BlueprintLayoutAnimator+iOS+tvOS.swift */,
+				ED1E49A836265EA3E81CC55F48A9A970 /* BlueprintSupplementaryKind.swift */,
+				359F9596EEEDDF533802CEBF58CD44CA /* DefaultLayoutAnimator.swift */,
+				5983185FD95666B8EC66F6E332A42ED7 /* HorizontalBlueprintLayout.swift */,
+				1652700C2018BCF71A4007B871D2F864 /* MosaicBlueprintPatternController.swift */,
+				E278E35152D4C76BE9BE299336E8EC55 /* MosaicLayoutAttributes.swift */,
+				09F894D881AA2E526298CAF8A0ADFD33 /* MosaicPattern.swift */,
+				952A391E76149C2499573466960C4722 /* SupplementaryLayoutAttributes.swift */,
+				DE9F034BE453F7058231EB509DB22F2A /* TypeAlias.swift */,
+				B1C36F79645C95CDDC8ADF705DAF94FC /* UICollectionView+Extensions.swift */,
+				B9A1D2DDEFB07A14751F6F355F26B3F6 /* VerticalBlueprintLayout.swift */,
+				35746BED548C6284CAF4E00AD3202861 /* VerticalMosaicBlueprintLayout.swift */,
+				B31E1E597FA2D27EA5AD99492955E03A /* Support Files */,
+			);
+			name = Blueprints;
+			path = Blueprints;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				C0ABC8D75B16950CB116F57638387DDF /* Pods */,
+				112D5F639DFC837F717A149E5C7EF330 /* Products */,
+				7471FDA3579D1A23D20908BB53AD2E7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1623BE39FDB923CFA2E75F2B8FFBB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC9FCEC2126F002C4F1FE3E3A3B841 /* M13Checkbox.modulemap */,
+				D401ECD28ED1ABE7B90E39A507CE1BED /* M13Checkbox-dummy.m */,
+				F81FCE059B8515A6BC5611DE60CF1B37 /* M13Checkbox-Info.plist */,
+				7EC653782CE5093832B08623BBD335F5 /* M13Checkbox-prefix.pch */,
+				B47C6DF5E16970E7E33078C84FEC33D3 /* M13Checkbox-umbrella.h */,
+				AE842BBB922A4B52DFFCFD525BA1EEFA /* M13Checkbox.debug.xcconfig */,
+				3B32DC3CC2C4D85C3A763510C1495495 /* M13Checkbox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		F4B4ADC666F9A6B50E6A855F8201DD0E /* FMMosaicLayout */ = {
+			isa = PBXGroup;
+			children = (
+				17824ED54546C41AB10DF5139648F40C /* FMMosaicLayout.h */,
+				71C251E58783EE40B928B61B1C60BE58 /* FMMosaicLayout.m */,
+				8609BAF123BF0E697FC28EA443DC174B /* Support Files */,
+			);
+			name = FMMosaicLayout;
+			path = FMMosaicLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		025A00547E28FE1928528961E11A2113 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80D9DE6C306B5125AD6A15ECCE04451 /* Then-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDB30CEB7665541D98ED3996D18EAC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E16D6DC6CD0AF27EB35122A8FB8071 /* TRMosaicLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B841C439ED0312DE26485983CBC3F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE1E2B47A584EE0B56FB874EF9CA03 /* Blueprints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC2959D270594FCDC3F214594B335B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019049768F9DFFCF770C09F9E92544CA /* FMMosaicLayout-umbrella.h in Headers */,
+				D15E74F6CDE2F11FF704DB8738DA73C9 /* FMMosaicLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2210FD9D65179EA5BCA7184094CE939 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C47AC2303C9FBEB7FA8E1DD2D6F456A /* Pods-GalleryApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2451AF72D6F6E49E6DDD89EBEB5F3B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89E0222ABBC43F957E4F3BF7F46142 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1797EBC7686E4A9E03FCDA8EAAD4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619C808DBE385DD30840C7BD324AEDC2 /* Conv-umbrella.h in Headers */,
+				3EEF62C894D3C148D0361C349BFBD527 /* Conv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
+			buildPhases = (
+				2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */,
+				31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */,
+				1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */,
+				B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMarkView;
+			productName = CheckMarkView;
+			productReference = 4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3512592E59CCE0A2C2DEBF60C05426EF /* FMMosaicLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0053DF07A2FF8880C024A97D734F07 /* Build configuration list for PBXNativeTarget "FMMosaicLayout" */;
+			buildPhases = (
+				DEC2959D270594FCDC3F214594B335B0 /* Headers */,
+				B537D9A92C174CFB83B8714E5CEA67DD /* Sources */,
+				9B38A91F8390E6A008AF4F81D574EC88 /* Frameworks */,
+				EC5E680D93C9BE11E307E24A227E801C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMMosaicLayout;
+			productName = FMMosaicLayout;
+			productReference = 0C795D2EE6975FA9DD00D0FBDFAD254C /* FMMosaicLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55C6D64AB711BE0F12013B4F3DD3D8E7 /* Pods-GalleryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB2D3CEC52E33D8558755A1A1CDF086 /* Build configuration list for PBXNativeTarget "Pods-GalleryApp" */;
+			buildPhases = (
+				E2210FD9D65179EA5BCA7184094CE939 /* Headers */,
+				D72054CECDB841ED0E23B1298772BEE5 /* Sources */,
+				EF9CD5DD9DDC006ED8876DCCE45E6834 /* Frameworks */,
+				6ED23ACDE240D4C0F9E70314EBD810B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153396C6CE444809E23C5BA097B895B1 /* PBXTargetDependency */,
+				EB84B019566B86A20C902A81974BF8E7 /* PBXTargetDependency */,
+				F16374F4F3F45C5F8868778F04A3C37E /* PBXTargetDependency */,
+				B3908484C43C0DC9EE7B8680D51CC60B /* PBXTargetDependency */,
+				968F499133D5F4C27D883A23D72F54E6 /* PBXTargetDependency */,
+				B181628D5EB538037E0D330548EA9D9C /* PBXTargetDependency */,
+				835BA90D8AEB3420E76C768A194BE692 /* PBXTargetDependency */,
+			);
+			name = "Pods-GalleryApp";
+			productName = "Pods-GalleryApp";
+			productReference = 94892EB73FE090F7134419405D5B7A47 /* Pods_GalleryApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C969E3F923CFEC15B65102F99FD224A /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				E2451AF72D6F6E49E6DDD89EBEB5F3B0 /* Headers */,
+				503F91742D9CCF37EC57DE6A97BFC95F /* Sources */,
+				044E0DF3E8A742E72242925B2FFEF0FE /* Frameworks */,
+				5CD1EAD0AB3217599754FFDCB8C48357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F843D8B38D31B62C0201C3E2EC09005 /* Conv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B75A9C925226A6EBE9FA12554A66A4 /* Build configuration list for PBXNativeTarget "Conv" */;
+			buildPhases = (
+				FAF1797EBC7686E4A9E03FCDA8EAAD4F /* Headers */,
+				998021335513B052E621C5638031CB89 /* Sources */,
+				8B471A0CF7A79BA15388DCEBD29ABA9E /* Frameworks */,
+				AF0249FA30FA3F4BC8D6E726B78423DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conv;
+			productName = Conv;
+			productReference = 08D3665968B224E03912507B2D0BBBCC /* Conv.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0B85019005BB260EA89A675A40860F3 /* TRMosaicLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C462346F98DF3A34ED58EB28A518C6B9 /* Build configuration list for PBXNativeTarget "TRMosaicLayout" */;
+			buildPhases = (
+				4FDB30CEB7665541D98ED3996D18EAC8 /* Headers */,
+				AD4660C351340A72BF3DDD2305B174F4 /* Sources */,
+				E2381C108E1DF958722DC1E2D0B01B41 /* Frameworks */,
+				2598CF89BCE367988D3C9F1BC0880BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRMosaicLayout;
+			productName = TRMosaicLayout;
+			productReference = D3097DB38338C0FDCFB5867C2BD6E0F6 /* TRMosaicLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17AEFC79E770A2906EFAAB1A3757406 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A248458BDE951C5A1AEEFD5865838099 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				025A00547E28FE1928528961E11A2113 /* Headers */,
+				0CDB9028959BA2593F7C5704933F1E4C /* Sources */,
+				10C5D1DF0B0903E84F8E9B2CDB05A61D /* Frameworks */,
+				4354D6180F3545AE004DD898DA319476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = 9317E4947CA2FE1B5D5999034C09CCA7 /* Then.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC6FC4C42CCE924FF1D3887F9FA7BB75 /* Blueprints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D371A18D475A3B038A5A8BCE5E100BC1 /* Build configuration list for PBXNativeTarget "Blueprints" */;
+			buildPhases = (
+				A2B841C439ED0312DE26485983CBC3F3 /* Headers */,
+				9EDB95D5E2C04F35286FBD57C31DF955 /* Sources */,
+				3D04704F017F4F08EF9312D1FE817B56 /* Frameworks */,
+				10B606B0138314FF85A170DDA8DE21ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blueprints;
+			productName = Blueprints;
+			productReference = E3D4F55A323EFF248A7A3DC7BA61BCC5 /* Blueprints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 112D5F639DFC837F717A149E5C7EF330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6FC4C42CCE924FF1D3887F9FA7BB75 /* Blueprints */,
+				00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */,
+				8F843D8B38D31B62C0201C3E2EC09005 /* Conv */,
+				3512592E59CCE0A2C2DEBF60C05426EF /* FMMosaicLayout */,
+				7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */,
+				55C6D64AB711BE0F12013B4F3DD3D8E7 /* Pods-GalleryApp */,
+				C17AEFC79E770A2906EFAAB1A3757406 /* Then */,
+				B0B85019005BB260EA89A675A40860F3 /* TRMosaicLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B606B0138314FF85A170DDA8DE21ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2598CF89BCE367988D3C9F1BC0880BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4354D6180F3545AE004DD898DA319476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD1EAD0AB3217599754FFDCB8C48357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED23ACDE240D4C0F9E70314EBD810B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0249FA30FA3F4BC8D6E726B78423DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E680D93C9BE11E307E24A227E801C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CDB9028959BA2593F7C5704933F1E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5233EE525CA015250991CF3A64A1D4E /* Then-dummy.m in Sources */,
+				A6DB9B92686EF749373DE8D76E5A6375 /* Then.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */,
+				2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503F91742D9CCF37EC57DE6A97BFC95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08B31BE69E7F9FD79F888D6878470CE /* DefaultValues.swift in Sources */,
+				B642D0A666A7B76CE25C412820331536 /* M13Checkbox+IB.swift in Sources */,
+				254315B3201BB02B083E2B189DD456E3 /* M13Checkbox-dummy.m in Sources */,
+				A14D173D1A208AE9ADB6419B6BFBF426 /* M13Checkbox.swift in Sources */,
+				A7448C3B3357059EE87853CFF2BE09C4 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				97A18E7CA66BA87E83A038BF75B2DCB2 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				D035EDC528DBF5BA980CDF5299828034 /* M13CheckboxBounceController.swift in Sources */,
+				E9D6E5290AA728E26BB83686BABD683A /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				D5584524FE609C7CD27E83BCB74CE685 /* M13CheckboxController.swift in Sources */,
+				91DE47E4BCDE92CC97123C314723B3A8 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				B323D65D6BE2950D9615F791E7A90A7F /* M13CheckboxDotController.swift in Sources */,
+				56BC1A6298E10CCE7703ADBC5AD48FAC /* M13CheckboxExpandController.swift in Sources */,
+				FF6BF71F784703DB5F302C257245A51B /* M13CheckboxFadeController.swift in Sources */,
+				B0471D9061D1AE1F54C08242A5773ECF /* M13CheckboxFillController.swift in Sources */,
+				0348E72A279882575367B52CE6A0C2B1 /* M13CheckboxFlatController.swift in Sources */,
+				3E3EB29E1A912DA51B5A537C152AA490 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				C2BA008A914F681607429815D2EDEA95 /* M13CheckboxPathGenerator.swift in Sources */,
+				99FBBAF5AEB8A1895DAB1752E3AB115C /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				AE32CE1F494D51291E92F6B0C29D7034 /* M13CheckboxSpiralController.swift in Sources */,
+				54295CEF5B5271B336B17776A282D3C6 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998021335513B052E621C5638031CB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7532DBD8F48F780C75D5458533A3AF /* CollectionViewDiffingRelodable.swift in Sources */,
+				1A7FBF90F6EC671A737AB65E1E4EC03C /* CollectionViewReloadable.swift in Sources */,
+				E42B03282929DC2002F9A979C49800CC /* Conv+Helper.swift in Sources */,
+				A74373B5F55D5664C891BADA35C2A8AC /* Conv+UICollectionViewDataSource.swift in Sources */,
+				D1E9C4D33F517AE8CB008D584265E49F /* Conv+UICollectionViewDelegate.swift in Sources */,
+				EC6FAF06C29A11E687434D7C5C1F4CE3 /* Conv+UICollectionViewDelegateFlowLayout.swift in Sources */,
+				4FB050AF8F982BBA7B34AB849E6C4C45 /* Conv+UIScrollViewDelegate.swift in Sources */,
+				802236EF3CF3ABEBAE84AFF7C9182474 /* Conv-dummy.m in Sources */,
+				26C52454CFE077E16EDFC45D86CB7D7B /* Conv.swift in Sources */,
+				09FC674C6D0D898743624DB29A28592B /* DefinitionStartable.swift in Sources */,
+				DA9407E8E541F6DE56C551D8B4A250B5 /* Diff.swift in Sources */,
+				350A971DF78EFE9D4FC7E199148A2E64 /* Differenciable.swift in Sources */,
+				B1CE6BC1A26DB3A79F229F11BDF2ADD5 /* DifferenciableIndexPath.swift in Sources */,
+				9DC57463527D223030A5F769A75AA3DC /* DiffingDefinitionWrapper.swift in Sources */,
+				F09CFC13C52B578A9E8E2B71BBD742F0 /* DiffItem.swift in Sources */,
+				6EA6F5D37B60F4F885F82479DD0456AB /* DiffSection.swift in Sources */,
+				C2607E7E8749B1DD3F744E8BF7E0E732 /* IndexStack.swift in Sources */,
+				411CE8C67007BE401A3A353483912D2A /* InternalDifferenciable.swift in Sources */,
+				111126B95BFDDEE351135CA11D13D36F /* Item+Delegate.swift in Sources */,
+				19C5F282D6605AF7C9026AF59C1B2F7C /* Item+Diffrenciable.swift in Sources */,
+				E092E2E3C38166D0F768F90662764C61 /* Item.swift in Sources */,
+				6CCFEB45C41DB0BDBCB3B498B407772B /* ItemDelegate.swift in Sources */,
+				7CE71AB76365B4765EB97488B454AA3C /* Occurence.swift in Sources */,
+				04263A09EF09BFDCA9E9925AFC884A89 /* Operation.swift in Sources */,
+				3F664A8F6FFCEEDB53D5D37C91FD2C4B /* OperationSet.swift in Sources */,
+				D934FA79A00040588873AFA83AE7F831 /* ParentReferences.swift in Sources */,
+				B44452E245E4639BEF8428BE2B5E86DA /* Reusable.swift in Sources */,
+				44957704D473CDFD43EDA86083E34B8D /* Section+Delegate.swift in Sources */,
+				4BF8471C5E4D6E5D0ABB09BF27DCF114 /* Section+Differenciable.swift in Sources */,
+				FAE41F37463AB36B25B38E6148FAA011 /* Section.swift in Sources */,
+				8B62A308E46F3A8C33CEC149C065D543 /* SectionDelegate.swift in Sources */,
+				98114E73EFDB72236419F232D9C4B39A /* SectionHeaderFooter+Delegate.swift in Sources */,
+				8AD7B729C01AF5F9A736CF2554280835 /* SectionHeaderFooter.swift in Sources */,
+				48CACEB6322937F0D0D5DB0D1D0FA8C6 /* SectionHeaderFooterDelegate.swift in Sources */,
+				89A18ADFA3A78307CF0A7846119C2F85 /* SectionHeaderFooterKind.swift in Sources */,
+				C9F726768ABFFB3714D70F0E27D94718 /* SectionResult.swift in Sources */,
+				6AF8AE79F187D861A31CCDEEB7E6E043 /* TaggedExtension.swift in Sources */,
+				4EA04B7F58057C3C09100B85F4A0FD27 /* UICollectionViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDB95D5E2C04F35286FBD57C31DF955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98002C37D8831B6C670B31FCC7DD937 /* BinarySearch.swift in Sources */,
+				2D69B3A91B7BCB517D1CB4AB471D652A /* BlueprintInvalidationContext.swift in Sources */,
+				54097916D766BAE11B3888B26066C26D /* BlueprintLayout+iOS+tvOS.swift in Sources */,
+				00B8689D491473EE5A2AE847F6E10C64 /* BlueprintLayout.swift in Sources */,
+				78C8F5811B14E1E042A27A304C93243A /* BlueprintLayoutAnimation.swift in Sources */,
+				380A3446B20D054F1F9CD0E65466FEBF /* BlueprintLayoutAnimationType.swift in Sources */,
+				D5514F6F3EFC1EE09C3B5C61A687842A /* BlueprintLayoutAnimator+Extensions.swift in Sources */,
+				2BF42B83B4B0D01A66FB42DA12946453 /* BlueprintLayoutAnimator+iOS+tvOS.swift in Sources */,
+				A268716B1EF31CA8DED912690FED1B3F /* BlueprintLayoutAnimator.swift in Sources */,
+				2587DDA1ACE04BB9FA9075DEFAA22937 /* Blueprints-dummy.m in Sources */,
+				AEF11B0B59FC34365BD1E8418F6F244A /* BlueprintSupplementaryKind.swift in Sources */,
+				FDA0467EAC64EFAA5EA830508B148A20 /* DefaultLayoutAnimator.swift in Sources */,
+				30E1962E96699B6CD645DB7AFEAD117F /* HorizontalBlueprintLayout.swift in Sources */,
+				163C5E5790663BEE7C844A5E0C733716 /* MosaicBlueprintPatternController.swift in Sources */,
+				EE9FCAA0B0FFFD3E930E191B6E28FF3E /* MosaicLayoutAttributes.swift in Sources */,
+				01E07E0881B6C53B54805C6C9EF39ED2 /* MosaicPattern.swift in Sources */,
+				633E431A1B33CC7E6401F7AEB7041DE9 /* SupplementaryLayoutAttributes.swift in Sources */,
+				2C8193BB6356085EAD361BFC2D9984F3 /* TypeAlias.swift in Sources */,
+				22F2F7782E72353C1A3013FA12DD8E83 /* UICollectionView+Extensions.swift in Sources */,
+				C9004DF399B08FA93EAD15249AB8B32D /* VerticalBlueprintLayout.swift in Sources */,
+				886DBA39611E1244A736B42B5F262B6A /* VerticalMosaicBlueprintLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4660C351340A72BF3DDD2305B174F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E608C7D9FB6073D5BB072CAB01D494 /* TRMosaicColumn.swift in Sources */,
+				F064CA8E6BBD1B8FE46DE35A17EF952E /* TRMosaicLayout-dummy.m in Sources */,
+				8AEE519D15E54A0E91EF315B8450FDAB /* TRMosaicLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B537D9A92C174CFB83B8714E5CEA67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD5261A3C6DA84DFA839CC16CC1214F /* FMMosaicLayout-dummy.m in Sources */,
+				09FA2DD29BC3C6018D65C54D37F7D90B /* FMMosaicLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72054CECDB841ED0E23B1298772BEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3188928DD3318F55B043B12BD2E1BFF6 /* Pods-GalleryApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153396C6CE444809E23C5BA097B895B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Blueprints;
+			target = DC6FC4C42CCE924FF1D3887F9FA7BB75 /* Blueprints */;
+			targetProxy = 82E4320BF9EC60EE908C9AEB5E2C0ECF /* PBXContainerItemProxy */;
+		};
+		835BA90D8AEB3420E76C768A194BE692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = E132C200F6DD9E0ED517ABC9CEFA4ABC /* PBXContainerItemProxy */;
+		};
+		968F499133D5F4C27D883A23D72F54E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = 2B7D05938B3904C5602D5C3E3A2E46CF /* PBXContainerItemProxy */;
+		};
+		B181628D5EB538037E0D330548EA9D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRMosaicLayout;
+			target = B0B85019005BB260EA89A675A40860F3 /* TRMosaicLayout */;
+			targetProxy = C6110D88941E0A3819BD6A9C2A5A0535 /* PBXContainerItemProxy */;
+		};
+		B3908484C43C0DC9EE7B8680D51CC60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMMosaicLayout;
+			target = 3512592E59CCE0A2C2DEBF60C05426EF /* FMMosaicLayout */;
+			targetProxy = 5E5C03A369A74DD8FF4CC1C9C46ADD0B /* PBXContainerItemProxy */;
+		};
+		EB84B019566B86A20C902A81974BF8E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CheckMarkView;
+			target = 00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */;
+			targetProxy = 0DF87970C6C43466BFD6CF0DBD5493D9 /* PBXContainerItemProxy */;
+		};
+		F16374F4F3F45C5F8868778F04A3C37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Conv;
+			target = 8F843D8B38D31B62C0201C3E2EC09005 /* Conv */;
+			targetProxy = 77F9F0B6E4A4A820811649B05B5B3193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A26C75409333221E55901A9F5123BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA2E4677A5560C6E47D72A76CB3A9CD /* FMMosaicLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMMosaicLayout/FMMosaicLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMMosaicLayout/FMMosaicLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMMosaicLayout/FMMosaicLayout.modulemap";
+				PRODUCT_MODULE_NAME = FMMosaicLayout;
+				PRODUCT_NAME = FMMosaicLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F57131AB51D8BAC10E048672065E5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98C18D60C413D3330607308700F5AC4 /* Pods-GalleryApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GalleryApp/Pods-GalleryApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GalleryApp/Pods-GalleryApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A50465BFFDD03FF4EB8921331503873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3B712DCCC6E699DDD401C0E41A4C98 /* Pods-GalleryApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GalleryApp/Pods-GalleryApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GalleryApp/Pods-GalleryApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30F5D7BD6A8D6AA5F030528F39BE50A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A13DE04F822D24D4CD00DDBE9C26B8 /* Then.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33D58A1EF1209E48631D7E44442ABAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B32DC3CC2C4D85C3A763510C1495495 /* M13Checkbox.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345D22233228C74150F1B588D369076C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B305807197240EE43E02E5FDE102468 /* TRMosaicLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRMosaicLayout/TRMosaicLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRMosaicLayout/TRMosaicLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRMosaicLayout/TRMosaicLayout.modulemap";
+				PRODUCT_MODULE_NAME = TRMosaicLayout;
+				PRODUCT_NAME = TRMosaicLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FA2312B457C293AA56F3B6052D0914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEFC07C3782738833EA89F79FB3A734 /* FMMosaicLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMMosaicLayout/FMMosaicLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMMosaicLayout/FMMosaicLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMMosaicLayout/FMMosaicLayout.modulemap";
+				PRODUCT_MODULE_NAME = FMMosaicLayout;
+				PRODUCT_NAME = FMMosaicLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56D13BB0F6E206B236578E053F1106BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CA444B9EB3518591FFEB5C33288D23 /* Conv.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Conv/Conv-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Conv/Conv-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Conv/Conv.modulemap";
+				PRODUCT_MODULE_NAME = Conv;
+				PRODUCT_NAME = Conv;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70815B571AA7B740B46F0DB3A3F3A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E821C70BA7687E3F700F1E8370F877E1 /* Then.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83779C9F908E45AF170E6E41E950E611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A590040FB3C7C3F06D24F6055BB136 /* TRMosaicLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRMosaicLayout/TRMosaicLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRMosaicLayout/TRMosaicLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRMosaicLayout/TRMosaicLayout.modulemap";
+				PRODUCT_MODULE_NAME = TRMosaicLayout;
+				PRODUCT_NAME = TRMosaicLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9197D206B919668E69576158AB0E5EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657D86BD8D188A9206F59BE7FA44F406 /* Blueprints.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Blueprints/Blueprints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Blueprints/Blueprints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Blueprints/Blueprints.modulemap";
+				PRODUCT_MODULE_NAME = Blueprints;
+				PRODUCT_NAME = Blueprints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9599C2163CFD65B7304FBA78C7799376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E0137F25BE2A715FE594DC2D542B29 /* CheckMarkView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
+				PRODUCT_MODULE_NAME = CheckMarkView;
+				PRODUCT_NAME = CheckMarkView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9C20D969B18D7DE20948E0A625F9655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879EAD0A85EF136DAAB26AC2877E3F9F /* CheckMarkView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
+				PRODUCT_MODULE_NAME = CheckMarkView;
+				PRODUCT_NAME = CheckMarkView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE98B9C1FEDB5932E3536825B0FC2DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF502908738CAE67ED7D392410BB50B /* Conv.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Conv/Conv-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Conv/Conv-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Conv/Conv.modulemap";
+				PRODUCT_MODULE_NAME = Conv;
+				PRODUCT_NAME = Conv;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF684F8A29D97F8EAD8A11E6A482C670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE842BBB922A4B52DFFCFD525BA1EEFA /* M13Checkbox.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCEA7210162DA6F46047A5339875D736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548110A6270166EB2C057B49ECCD8245 /* Blueprints.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Blueprints/Blueprints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Blueprints/Blueprints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Blueprints/Blueprints.modulemap";
+				PRODUCT_MODULE_NAME = Blueprints;
+				PRODUCT_NAME = Blueprints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C969E3F923CFEC15B65102F99FD224A /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF684F8A29D97F8EAD8A11E6A482C670 /* Debug */,
+				33D58A1EF1209E48631D7E44442ABAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB2D3CEC52E33D8558755A1A1CDF086 /* Build configuration list for PBXNativeTarget "Pods-GalleryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A50465BFFDD03FF4EB8921331503873 /* Debug */,
+				0F57131AB51D8BAC10E048672065E5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0053DF07A2FF8880C024A97D734F07 /* Build configuration list for PBXNativeTarget "FMMosaicLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA2312B457C293AA56F3B6052D0914F /* Debug */,
+				0A26C75409333221E55901A9F5123BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A248458BDE951C5A1AEEFD5865838099 /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70815B571AA7B740B46F0DB3A3F3A71F /* Debug */,
+				30F5D7BD6A8D6AA5F030528F39BE50A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B75A9C925226A6EBE9FA12554A66A4 /* Build configuration list for PBXNativeTarget "Conv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE98B9C1FEDB5932E3536825B0FC2DFA /* Debug */,
+				56D13BB0F6E206B236578E053F1106BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9599C2163CFD65B7304FBA78C7799376 /* Debug */,
+				A9C20D969B18D7DE20948E0A625F9655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C462346F98DF3A34ED58EB28A518C6B9 /* Build configuration list for PBXNativeTarget "TRMosaicLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83779C9F908E45AF170E6E41E950E611 /* Debug */,
+				345D22233228C74150F1B588D369076C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D371A18D475A3B038A5A8BCE5E100BC1 /* Build configuration list for PBXNativeTarget "Blueprints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9197D206B919668E69576158AB0E5EB4 /* Debug */,
+				FCEA7210162DA6F46047A5339875D736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

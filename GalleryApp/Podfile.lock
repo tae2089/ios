@@ -1,0 +1,40 @@
+PODS:
+  - Blueprints (0.13.1)
+  - CheckMarkView (0.4.3)
+  - Conv (1.2.3)
+  - FMMosaicLayout (0.1.4)
+  - M13Checkbox (3.4.0)
+  - Then (2.7.0)
+  - TRMosaicLayout (1.0.0)
+
+DEPENDENCIES:
+  - Blueprints
+  - CheckMarkView
+  - Conv
+  - FMMosaicLayout
+  - M13Checkbox
+  - Then
+  - TRMosaicLayout
+
+SPEC REPOS:
+  trunk:
+    - Blueprints
+    - CheckMarkView
+    - Conv
+    - FMMosaicLayout
+    - M13Checkbox
+    - Then
+    - TRMosaicLayout
+
+SPEC CHECKSUMS:
+  Blueprints: ddd6ab1e455c98471aaef2fdd0b09b5f9b53af5b
+  CheckMarkView: 8bcac176673ed40d05f220d335de92f6a2702404
+  Conv: dda08eaeaaaede365dedcd9f04cb16d73a69347d
+  FMMosaicLayout: c0febf6876c987c425d7e2176d034fa7a2c98cb5
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  TRMosaicLayout: 1875505c48dd2877afd69a8bea7b4c1c63afa5b5
+
+PODFILE CHECKSUM: 2ec5e9a7e4e37980177bf927985a5d8f0623e549
+
+COCOAPODS: 1.10.1

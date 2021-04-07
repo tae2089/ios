@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-GalleryApp/Pods-GalleryApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Blueprints/Blueprints.framework
+${BUILT_PRODUCTS_DIR}/CheckMarkView/CheckMarkView.framework
+${BUILT_PRODUCTS_DIR}/Conv/Conv.framework
+${BUILT_PRODUCTS_DIR}/FMMosaicLayout/FMMosaicLayout.framework
+${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework
+${BUILT_PRODUCTS_DIR}/TRMosaicLayout/TRMosaicLayout.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework
