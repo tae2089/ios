@@ -1,0 +1,6 @@
+framework module Pods_DatatransportApp {
+  umbrella header "Pods-DatatransportApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
